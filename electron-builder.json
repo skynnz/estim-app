@@ -1,0 +1,13 @@
+{
+  "appId": "com.tuapp.id",
+  "files": ["dist-electron", "dist"],
+  "mac": {
+    "target": "dmg"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  },
+  "linux": {
+    "target": "AppImage"
+  }
+}
